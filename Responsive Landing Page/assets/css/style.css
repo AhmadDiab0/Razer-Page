@@ -221,7 +221,7 @@ img {
   }
 
   .item:nth-child(3):before {
-    color: #99ff99;
+    color: #99ffaa;
   }
 
   .item:nth-child(3):after {
@@ -242,6 +242,33 @@ img {
     color: #c4ff76;
   }
 
+  .item:nth-child(5) {
+    margin-top: -6.25em;
+    color: #cbfe54;
+    animation-delay: -0.4s;
+  }
+
+  .item:nth-child(5):before {
+    color: #c7ff9a;
+  }
+
+  .item:nth-child(5):after {
+    color: #77ff77;
+  }
+
+  .item:nth-child(6) {
+    margin-top: -9.375em;
+    color: #bdfe54;
+    animation-delay: -0.2s;
+  }
+
+  .item:nth-child(6):before {
+    color: #c2ff9a;
+  }
+
+  .item:nth-child(6):after {
+    color: #adff77;
+  }
 
 /*=============== HEADER ===============*/
 .header {
