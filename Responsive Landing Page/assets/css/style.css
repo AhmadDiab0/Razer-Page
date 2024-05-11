@@ -196,6 +196,34 @@ img {
     color: #64ff6c;
   }
 
+  .item:nth-child(1):after {
+    color: #51ff41;
+  }
+
+  .item:nth-child(2) {
+    margin-top: 3.125em;
+    color: #77fe42;
+    animation-delay: -1s;
+  }
+
+  .item:nth-child(2):before {
+    color: #dfff88;
+  }
+
+  .item:nth-child(2):after {
+    color: #e8ff65;
+  }
+
+  .item:nth-child(3) {
+    margin-top: 0em;
+    color: #cbfe53;
+    animation-delay: -0.8s;
+  }
+
+  .item:nth-child(3):before {
+    color: #99ff99;
+  }
+
 /*=============== HEADER ===============*/
 .header {
     width: 100%;
