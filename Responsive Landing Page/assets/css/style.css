@@ -136,6 +136,26 @@ img {
 .grid {
     display: grid;
 }
+/*=============== CUBES ===============*/
+
+.cubes {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform-style: preserve-3d;
+  }
+
+  .loop {
+    transform: rotateX(-35deg) rotateY(-45deg) translateZ(1.5625em);
+  }
+
+  @keyframes s {
+    to {
+      transform: scale3d(0.2, 0.2, 0.2);
+    }
+  }
+
+  
 
 /*=============== HEADER ===============*/
 .header {
