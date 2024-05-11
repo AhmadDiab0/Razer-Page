@@ -224,6 +224,25 @@ img {
     color: #99ff99;
   }
 
+  .item:nth-child(3):after {
+    color: #9dff76;
+  }
+
+  .item:nth-child(4) {
+    margin-top: -3.125em;
+    color: #89fe53;
+    animation-delay: -0.6s;
+  }
+
+  .item:nth-child(4):before {
+    color: #aaff99;
+  }
+
+  .item:nth-child(4):after {
+    color: #c4ff76;
+  }
+
+
 /*=============== HEADER ===============*/
 .header {
     width: 100%;
