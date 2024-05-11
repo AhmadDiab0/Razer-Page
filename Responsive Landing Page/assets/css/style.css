@@ -155,7 +155,46 @@ img {
     }
   }
 
-  
+  .item {
+    margin: -1.5625em;
+    width: 3.125em;
+    height: 3.125em;
+    transform-origin: 50% 50% -1.5625em;
+    box-shadow: 0 0 0.125em currentColor;
+    background: currentColor;
+    animation: s 0.6s cubic-bezier(0.45, 0.03, 0.51, 0.95) infinite alternate;
+  }
+
+  .item:before,
+  .item:after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    transform-origin: 0 100%;
+    box-shadow: inherit;
+    background: currentColor;
+    content: "";
+  }
+
+  .item:before {
+    bottom: 100%;
+    transform: rotateX(90deg);
+  }
+
+  .item:after {
+    left: 100%;
+    transform: rotateY(90deg);
+  }
+
+  .item:nth-child(1) {
+    margin-top: 6.25em;
+    color: #1efe31;
+    animation-delay: -1.2s;
+  }
+
+  .item:nth-child(1):before {
+    color: #64ff6c;
+  }
 
 /*=============== HEADER ===============*/
 .header {
