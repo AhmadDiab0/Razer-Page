@@ -660,6 +660,39 @@ img {
 }
 
 /*=============== PRODUCTS ===============*/
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .container-checkbox {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .container-checkbox svg {
+    position: relative;
+    top: 10px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    transition: all 0.3s;
+    fill: #666;
+  }
+
+  .container-checkbox svg:hover {
+    transform: scale(1.1);
+  }
+
+  .container-checkbox input:checked ~ svg {
+    fill: #ffeb49;
+  }
+
 .products__line {
     line-height: 4rem;
 }
