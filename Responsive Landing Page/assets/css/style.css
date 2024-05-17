@@ -138,6 +138,24 @@ img {
 }
 /*=============== SPONSOR LOADER ===============*/
 
+.notif {
+    background: none;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .notif:hover {
+    background: rgba(170, 170, 170, 0.062);
+    transition: 0.5s;
+  }
+
+  .notif svg {
+    color: #fff;
+  }
+
+
   .loader {
     display: flex;
     align-items: center;
