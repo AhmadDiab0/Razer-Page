@@ -136,6 +136,7 @@ img {
 .grid {
     display: grid;
 }
+
 /*=============== SPONSOR LOADER ===============*/
 
 .notif {
@@ -144,18 +145,18 @@ img {
     padding: 15px 15px;
     border-radius: 10px;
     cursor: pointer;
-  }
+}
 
-  .notif:hover {
+.notif:hover {
     background: rgba(170, 170, 170, 0.062);
     transition: 0.5s;
-  }
+}
 
-  .notif svg {
+.notif svg {
     color: #fff;
-  }
+}
 
-  .btn-shine {
+.btn-shine {
     position: absolute;
     top: 110%;
     left: 30%;
@@ -174,88 +175,101 @@ img {
     text-decoration: none;
     white-space: nowrap;
     font-family: "Poppins", sans-serif;
-  }
-  @-moz-keyframes shine {
+}
+
+@-moz-keyframes shine {
     0% {
-      background-position: 0;
+        background-position: 0;
     }
+
     60% {
-      background-position: 180px;
+        background-position: 180px;
     }
+
     100% {
-      background-position: 180px;
+        background-position: 180px;
     }
-  }
-  @-webkit-keyframes shine {
+}
+
+@-webkit-keyframes shine {
     0% {
-      background-position: 0;
+        background-position: 0;
     }
+
     60% {
-      background-position: 180px;
+        background-position: 180px;
     }
+
     100% {
-      background-position: 180px;
+        background-position: 180px;
     }
-  }
-  @-o-keyframes shine {
+}
+
+@-o-keyframes shine {
     0% {
-      background-position: 0;
+        background-position: 0;
     }
+
     60% {
-      background-position: 180px;
+        background-position: 180px;
     }
+
     100% {
-      background-position: 180px;
+        background-position: 180px;
     }
-  }
-  @keyframes shine {
+}
+
+@keyframes shine {
     0% {
-      background-position: 0;
+        background-position: 0;
     }
+
     60% {
-      background-position: 180px;
+        background-position: 180px;
     }
+
     100% {
-      background-position: 180px;
+        background-position: 180px;
     }
-  }
+}
 
 
 
-  .loader {
+.loader {
     display: flex;
     align-items: center;
-  }
+}
 
-  .bar {
+.bar {
     display: inline-block;
     width: 3px;
     height: 20px;
     background-color: rgba(255, 255, 255, .5);
     border-radius: 10px;
     animation: scale-up4 1s linear infinite;
-  }
+}
 
-  .bar:nth-child(2) {
+.bar:nth-child(2) {
     height: 35px;
     margin: 0 5px;
     animation-delay: .25s;
-  }
+}
 
-  .bar:nth-child(3) {
+.bar:nth-child(3) {
     animation-delay: .5s;
-  }
+}
 
-  @keyframes scale-up4 {
+@keyframes scale-up4 {
     20% {
-      background-color: #ffff;
-      transform: scaleY(1.5);
+        background-color: #ffff;
+        transform: scaleY(1.5);
     }
 
     40% {
-      transform: scaleY(1);
+        transform: scaleY(1);
     }
-  }
+}
+
 /*=============== HEADER ===============*/
 .header {
     width: 100%;
@@ -270,7 +284,7 @@ img {
 .nav {
     height: var(--header-height);
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
@@ -424,6 +438,7 @@ img {
     align-items: center;
     column-gap: .75rem;
 }
+
 .button--flex {
     width: fit-content;
     display: flex;
@@ -438,24 +453,24 @@ img {
     color: #fff;
     border: none;
     background-position: left center;
-    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    box-shadow: 0 30px 10px -20px rgba(0, 0, 0, .2);
     transition: background .3s ease;
-  }
+}
 
-  .button--flex:hover {
+.button--flex:hover {
     background-size: 320%;
     background-position: right center;
-  }
+}
 
-  .button--flex:hover svg {
+.button--flex:hover svg {
     fill: #fff;
-  }
+}
 
-  .button--flex svg {
+.button--flex svg {
     width: 23px;
     fill: #f09f33;
     transition: .3s ease;
-  }
+}
 
 /*=============== SPONSOR ===============*/
 .sponsor__img {
@@ -617,16 +632,16 @@ img {
     cursor: pointer;
     height: 0;
     width: 0;
-  }
+}
 
-  .container-checkbox {
+.container-checkbox {
     display: block;
     position: relative;
     cursor: pointer;
     user-select: none;
-  }
+}
 
-  .container-checkbox svg {
+.container-checkbox svg {
     position: relative;
     top: 10px;
     left: 0;
@@ -634,15 +649,15 @@ img {
     width: 30px;
     transition: all 0.3s;
     fill: #666;
-  }
+}
 
-  .container-checkbox svg:hover {
+.container-checkbox svg:hover {
     transform: scale(1.1);
-  }
+}
 
-  .container-checkbox input:checked ~ svg {
+.container-checkbox input:checked~svg {
     fill: #ffeb49;
-  }
+}
 
 .products__line {
     line-height: 4rem;
@@ -705,22 +720,22 @@ img {
     font-weight: 700;
     transition: 0.6s;
     box-shadow: 0px 0px 60px #1f652b;
-    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-  }
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
 
-  .btn:active {
+.btn:active {
     scale: 0.92;
-  }
+}
 
-  .btn:hover {
-    background: rgb(2,29,78);
+.btn:hover {
+    background: rgb(2, 29, 78);
     background: linear-gradient(270deg, rgba(2, 78, 8, 0.681) 0%, rgba(31, 232, 48, 0.873) 60%);
     color: rgb(4, 4, 38);
-  }
+}
 
-  .see_more {
-    margin:auto
-  }
+.see_more {
+    margin: auto
+}
 
 /*=============== FOOTER ===============*/
 .footer__container {
