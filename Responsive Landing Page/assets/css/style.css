@@ -158,8 +158,8 @@ img {
 
 .btn-shine {
     position: absolute;
-    top: 110%;
-    left: 30%;
+    margin-left: 80px;
+    margin-top: 20px;
     transform: translate(-50%, -50%);
     padding: 12px 48px;
     color: #fff;
