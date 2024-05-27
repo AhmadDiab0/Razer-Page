@@ -123,6 +123,9 @@ img {
 }
 
 /*=============== LAYOUT ===============*/
+.home {
+    margin-top: 100px;
+}
 .main {
     overflow: hidden;
 }
@@ -406,6 +409,7 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    border-bottom: #00ff00 3px solid;
 }
 
 .nav__logo {
