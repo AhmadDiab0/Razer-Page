@@ -14,7 +14,7 @@
     --white-color: #FFF;
     --body-color: hsl(var(--hue-color), 4%, 6%);
     --container-color: hsl(var(--hue-color), 4%, 10%);
-    --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+    --text-gradient: linear-gradient(to top, #48ff00 0%, #292929 100%);
     --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
     --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
     /*========== Font and typography ==========*/
@@ -161,10 +161,6 @@ img {
 }
 
 .btn-shine {
-    position: relative;
-    margin-top: 20px;
-    transform: translate(-50%, -50%);
-    padding: 12px 48px;
     color: #fff;
     background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
     background-position: 0;
@@ -1033,7 +1029,9 @@ img {
 }
 
 .footer__logo {
-    width: 2rem;
+    width: 5rem;
+    margin-left: 50px;
+    transform: rotate(-90deg);
 }
 
 .footer__title {
