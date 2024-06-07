@@ -285,7 +285,7 @@ img {
     --input-text-color: #808080;
     --input-text-hover-color: transparent;
     --input-border-color: #808080;
-    --input-border-hover-color: #999999;
+    --input-border-hover-color: #51ff00;
     --input-bg-color: #333333;
     --search-max-width: 250px;
     --search-min-width: 150px;
@@ -553,7 +553,7 @@ img {
 
 
 .button--flex {
-    --green: #1bfd39;
+    --green: #2efd1b;
     font-size: 15px;
     padding: 0.7em 2.7em;
     letter-spacing: 0.06em;
@@ -566,7 +566,7 @@ img {
     border: 2px solid var(--green);
     background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%);
     color: var(--green);
-    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+    box-shadow: inset 0 0 10px rgba(27, 253, 27, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
 }
 
 .button--flex:hover {
@@ -1065,7 +1065,6 @@ img {
 
 .footer__input {
     background-color: var(--container-color);
-    width: 90%;
     color: var(--white-color);
 }
 
